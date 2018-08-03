@@ -516,6 +516,12 @@ mark,
   height: auto;
 }
 
+.img-fluid-ratio {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

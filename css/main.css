@@ -52,7 +52,7 @@
 body {
   color: #777777;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -138,6 +138,7 @@ h4, h5, h6 {
 
 h1, .h1 {
   font-size: 36px;
+  line-height: 1.5em !important;
 }
 
 h2, .h2 {
@@ -163,6 +164,10 @@ h6, .h6 {
 
 td, th {
   border-radius: 0px;
+}
+
+.purple-title {
+    color: #601be0;
 }
 
 /**
@@ -594,11 +599,17 @@ td, th {
   text-align: center;
 }
 
+.center-vert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .text-left {
   text-align: left;
 }
 
-.text-rigth {
+.text-right {
   text-align: right;
 }
 
@@ -2002,6 +2013,16 @@ h1, h2, h3, h4, h5, h6 {
   #nav-menu-container {
     display: none;
   }
+
+  .container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .purple-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 /* Nav Meu Styling */
@@ -2195,13 +2216,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+/*Not in banner*/
 .primary-btn {
-  background-color: #4db8a9;
+  background-color: #fff;
+  border-radius: 20px;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 60px;
   border: 1px solid transparent;
-  color: #fff;
+  color: #222;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2273,7 +2296,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: -90px;
+  margin-top: 30%;
   text-align: center;
 }
 
@@ -2289,6 +2312,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 991.98px) {
+  .banner-content {
+    margin-top: 30%;
+  }
   .banner-content h1 {
     font-size: 36px;
   }
@@ -2566,20 +2592,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 */
 
 .insights-area {
-  background: url(../img/insights-bg.jpg) center;
+  background-color: #3cc1af;
   background-size: cover;
 }
 
 .insights-area .primary-btn {
-  text-transform: capitalize;
+  text-transform: uppercase;
   border-radius: 0;
-  background-color: #4db8a9;
-  color: #fff;
+  background-color: #fff;
+  color: #222;
   border: 1px solid transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border-radius: 20px;
 }
 
 .insights-area .primary-btn:hover {
@@ -2757,11 +2784,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-testimonial {
-  text-align: center;
+  text-align: left;
   padding: 30px;
   background: #fff;
-  text-align: center;
   border: 1px solid #eee;
+  /*height: 421px;*/
+}
+
+.single-testimonial h4 {
+  text-align: center;
 }
 
 .single-testimonial .desc {
@@ -3062,12 +3093,12 @@ h6 {
 }
 
 .generic-banner .height {
-  height: 600px;
+  height: 400px;
 }
 
 @media (max-width: 767.98px) {
   .generic-banner .height {
-    height: 400px;
+    height: 300px;
   }
 }
 
