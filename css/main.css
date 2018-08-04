@@ -1982,6 +1982,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
+
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
@@ -2032,7 +2033,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #222;
+  /*color: rgb(98, 41, 234);*/
+  color: rgb(70, 196, 168);
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
@@ -2056,7 +2058,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: #fff;
   transition: 0.3s;
   display: block;
   font-size: 12px;
@@ -2835,7 +2837,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   /*padding-top: 100px;*/
-  background-color: #222222;
+  background-color: #0c917f;
 }
 
 .footer-area .footer-nav li {
