@@ -41,6 +41,23 @@
                 background-size: cover;
                 background-position: 50% 34%;
               }
+              
+              .stat {
+                font-size: 3.1rem;
+                text-align: center;
+                line-height: normal;
+                align-items: center;
+              }
+              
+              @media (max-width: 500px) {
+               
+                .stat {
+                  margin-top: 6%;
+                  font-size: 14pt;
+                }
+                
+              }
+              
             </style>
 		</head>
 		<body>
@@ -70,7 +87,7 @@
 					<div class="row height align-items-center justify-content-center">
 						<div class="col-lg-10">
 							<div class="banner-content">
-								<h1 class = "text-white">Design &amp; Validation</h1>
+								<h1 class="text-white hero-title">Design &amp; Validation</h1>
 							</div>
 						</div>
 					</div>
@@ -157,6 +174,7 @@
 						<!-- Begin row -->
 						<div class="row row-gap">
 								<div class="col"></div>
+                                <div class="col-lg-9">
 								<h3 class="purple-title mb-30">Motivating Retention</h3>
 								<p>Since teens get value from FutureFinder through more interaction, it needs to motivate returning and forming habits. It does this in three ways. Students are timed out of answering more questions and jobs until the next day, which creates shorter but rewarding sessions that students look forward to. The questions themselves are interactive and interesting, with sliding scales and videos. Finally the search for self-discovery motivates students to unlock more insights through answering questions. Overall, it creates a motivating cycle of interaction and expectant discovery for every session.</p>
 						</div>
@@ -219,8 +237,13 @@
 								<div class="col"></div>
 						</div>
 						<!-- End -->
-                      
-                         <!-- Product Details -->
+                      </div>
+                  </div>
+                </div>          
+                    <div class="container">
+					<div class="section-top-border">  
+                          
+                         <!-- User Testing -->
                         <div class="main-wrapper">
                                 <div class="container">
                                     <div class="section-top-border">
@@ -257,12 +280,12 @@
                                                   <div class="col-lg-8">
                                                     <img src="#" alt="" class="img-fluid-ratio">
                                                     <p>A/B two designs in an Invision click-through, we tested whether students were more interested in self-dicovery framings than career-finding framings. We also tested perceptions of question quantity. We found that students were <b>not actually motivated by disguising career exploration</b> in self-discovery &mdash; they saw through didn't want to feel lied to! We also learned that the amount of questions correlated with the <b>trustworthiness of the system's level of knowledge.</b> 10 questions seemed like the right amount to be quick but feel trustworthy.</p><br><br> 
-                                                    <p>Card sorting yielded the below groupings of job information by their interest. Students also prefered full click down and scrolls, and really like example career journeys.</p>
+                                                    <p>Card sorting yielded the below groupings of job information by their interest. Growth was interestingly ranked in the lowest group. Students also prefered full click down and scrolls, and really like example career journeys.</p>
                                                   </div>
 						                        </div>
                                           <div class="row row-gap">
                                             <div class="col">
-                                                    <img src="img/design/%5BV3-S8-J%5D%20Ore.JPG" alt="" class="img-fluid-ratio">
+                                                    <img src="img/design/card-sort.png" alt="" class="img-fluid-ratio">
                                             </div>
                                           </div>
                                         </div>
@@ -274,10 +297,36 @@
                                                 <div class="col"></div>
                                                 <div class="col-lg-9">
                                                 <h3 class="purple-title mb-30">Final Prototype Test</h3>
-                                                <p>FutureFinder was prototyped to a high level of fidelity using Framer.js. For our final test, we wanted high schoolers to fully experience the design, and so we created a full backend in Airtable, over 30 jobs with content, a personality quiz, and a working version of a diverse matching algorithm.<br><br>For the final test, we conducted largely unguided think aloud usability tests to measure if students understood the system without help, if they were succesfully completing tasks, and if it was meeting their perceived needs. We did not have bandwidth to make these final design iterations, but we measured our prototype against key metrics of success including use behavior and qualitative responses to the app. We also did a post-interview questionaire to hopefully elicit more candid responses.</p>
+                                                <p>FutureFinder was prototyped to a high level of fidelity using Framer.js. For our final test, we wanted high schoolers to fully experience the design, and so we created a full backend in Airtable, over 30 jobs with content, a personality quiz, and a working version of a diverse matching algorithm.<br><br>For the final test, we conducted largely unguided think aloud usability tests to measure if students understood the system without help, if they were succesfully completing tasks, and if it was meeting their perceived needs. We did not have bandwidth to make these final design iterations, but we measured our prototype against key metrics of success including use behavior and qualitative responses to the app. We also did a post-interview questionaire to hopefully elicit more candid responses. Feedback on design decisions are above, and further metrics are below.</p>
+                                                <br><br>
+                                                  <p>Students favorited jobs at a very high rate, and favorited high-demand jobs at a rate higher than expected at 41%. There was overall a large amount of positive feedback, with more reports of downloading than any of our previous user tests.</p>
                                                 </div>
                                                 <div class="col"></div>
                                         </div>
+                                        <div class="row row-gap justify-content-center">
+                                            <div class="col-lg-6">
+                                                    <img src="img/design/Eve.png" alt="" class="img-fluid-ratio">
+                                            </div>
+                                            <div class="col-lg-6 stat">
+                                              <p><b>4 out of 5</b> students unprompted said they would download or use the app</p>
+                                            </div>
+                                          </div>
+                                          <div class="row row-gap justify-content-center">
+                                            <div class="col-lg-6 stat">
+                                                    <p><b>12 out of 30</b> jobs were favorited</p>
+                                            </div>
+                                            <div class="col-lg-6 flex">
+                                                    <img src="img/design/Sam.png" alt="" class="img-fluid-ratio">
+                                            </div>
+                                          </div>
+                                          <div class="row row-gap justify-content-center">
+                                            <div class="col-lg-6 flex">
+                                                    <img src="img/design/Ben.png" alt="" class="img-fluid-ratio">
+                                            </div>
+                                            <div class="col-lg-6 stat">
+                                              <p><b>41 %</b> of favorited jobs were in high demand in PA</p>
+                                            </div>
+                                          </div>
 						              <!-- End -->
                                         <!-- End -->
                                     </div>
