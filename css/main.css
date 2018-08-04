@@ -51,7 +51,7 @@
 
 body {
   color: #777777;
-  font-family: "Lato", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.625em;
@@ -119,25 +119,25 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Source Serif Pro', serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 600;
   color: #222222;
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 48px;
   line-height: 1.5em !important;
 }
 
@@ -798,7 +798,8 @@ b, sup, sub, u, del {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
+  weight: 300;
 }
 
 h2 {
@@ -1889,6 +1890,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 14px 0;
+  background-color: #FFFFFF;
   position: fixed;
   left: 0;
   top: 0;
@@ -1989,7 +1991,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -2032,7 +2034,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #222;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   outline: none;
 }
@@ -2190,11 +2192,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .row-gap {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .section-title {
@@ -2219,7 +2221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*Not in banner*/
 .primary-btn {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 5px;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 60px;
@@ -2293,16 +2295,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/header-bg.jpg) center;
   background-size: cover;
+  padding-top: 10%;
 }
 
 .banner-content {
-  margin-top: 30%;
+  margin-top: 42%;
   text-align: center;
 }
 
 .banner-content h1 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1em;
   margin-top: 20px;
 }
@@ -2598,7 +2601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .insights-area .primary-btn {
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 5px;
   background-color: #fff;
   color: #222;
   border: 1px solid transparent;
@@ -2606,7 +2609,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border-radius: 20px;
 }
 
 .insights-area .primary-btn:hover {
@@ -3093,7 +3095,7 @@ h6 {
 }
 
 .generic-banner .height {
-  height: 400px;
+  height: 500px;
 }
 
 @media (max-width: 767.98px) {
