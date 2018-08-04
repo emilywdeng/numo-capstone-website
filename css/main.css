@@ -517,7 +517,7 @@ td, th {
 }
 
 .pb-60 {
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 .pb-70 {
@@ -794,7 +794,8 @@ td, th {
 }
 
 b, sup, sub, u, del {
-  color: #4db8a9;
+  color: #3CC1AF;
+  font-weight: 600;
 }
 
 h1 {
@@ -2604,6 +2605,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .insights-area .primary-btn {
   text-transform: uppercase;
   border-radius: 5px;
+  margin-top: 30px;
   background-color: #fff;
   color: #222;
   border: 1px solid transparent;
@@ -3155,4 +3157,8 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+#home-logo {
+  padding-bottom: 10%;
 }
